@@ -37,7 +37,7 @@ df2.shape
 df2['name'] = df2['name'].astype('str')
 df2['description'] = df2['description'].astype('str')
 
-df3 = df2.loc[0:20000]
+df3 = df2.loc[0:5000]
 df3.head()
 df3.shape
 new_df = df3[["id", "name", "description", "host_name" ,"neighbourhood_cleansed" ,"listing_url","latitude",
